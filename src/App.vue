@@ -1,7 +1,7 @@
 <template>
-  <div id="app" class="font-base">
-    <router-view />
-  </div>
+  <Home msg="Hello Vue 3 + Vite" />
 </template>
 
-
+<script setup>
+import Home from './components/Home.vue'
+</script>
